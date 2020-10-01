@@ -9,7 +9,7 @@ printf("Enter a number to check whether it is prime or not: ");
 scanf("%d",&num);
 check=primeno(num,num/2);
 if(check==1)
-printf("%d is a prime number."num);
+printf("%d is a prime number.",num);
 else
 printf("%d is not a prime number",num);
 getch();
